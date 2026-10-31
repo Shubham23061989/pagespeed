@@ -1,0 +1,39 @@
+{
+  "runId": "run-2026-09-17-1200",
+  "strategy": "DESKTOP",
+  "startedAt": "2026-09-17T12:00:00",
+  "completedAt": "2026-09-17T12:02:03",
+  "durationMs": 123456,
+  "summary": {
+    "totalUrls": 2,
+    "successfulUrls": 2,
+    "failedUrls": 0,
+    "status": "SUCCESS"
+  },
+  "results": [
+    {
+      "url": "https://www.asianpaints.com/",
+      "strategy": "DESKTOP",
+      "performanceScore": 65.0,
+      "accessibilityScore": 90.0,
+      "bestPracticesScore": 96.0,
+      "seoScore": 92.0,
+      "largestContentfulPaintMs": 2800.0,
+      "cumulativeLayoutShift": 0.04,
+      "status": "SUCCESS",
+      "errorMessage": ""
+    },
+    {
+      "url": "https://beta.asianpaints.com/services/waterproofing-solutions.html",
+      "strategy": "MOBILE",
+      "performanceScore": 58.0,
+      "accessibilityScore": 88.0,
+      "bestPracticesScore": 92.0,
+      "seoScore": 94.0,
+      "largestContentfulPaintMs": 3400.0,
+      "cumulativeLayoutShift": 0.08,
+      "status": "SUCCESS",
+      "errorMessage": ""
+    }
+  ]
+}
