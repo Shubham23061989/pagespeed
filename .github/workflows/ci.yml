@@ -28,7 +28,10 @@ jobs:
 
         - name: Build project
           run: npm run build
-
+        
+        - name: Fake Error
+          run: abcxyzcommand
+          
         - name: List files
           run: ls -la
           
