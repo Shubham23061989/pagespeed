@@ -23,5 +23,8 @@ jobs:
         - name: Check node version
           run: node -v
 
+        - name: List files
+          run: ls -la
+          
         - name: Build project
           run: npm run build
