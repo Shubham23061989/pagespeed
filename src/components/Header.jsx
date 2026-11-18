@@ -9,7 +9,7 @@ export default function Header({ tab, setTab }) {
           <img src="/asian-paint-logo.avif" alt="Asian Paints" className="brand-logo" />
           
           <div className="site-brand-wrapper">
-            <h1 class="app-heading">Site Speed Deck</h1>
+            <h1 class="app-heading">Site Speed Deck - CI/CD. Practice</h1>
             <span className="subtitle">PageSpeed monitoring for AP</span>
           </div>
           
