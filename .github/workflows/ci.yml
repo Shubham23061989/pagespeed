@@ -3,7 +3,7 @@ name: CI pipeline practice
 on:
   push:
     branches:
-      - pagespeed
+      - practice/ci-cd
 jobs:
     build:
       runs-on: ubuntu-latest
