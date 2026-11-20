@@ -3,7 +3,7 @@ name: CI pipeline practice
 on:
   pull_request:
     branches:
-      - main
+      - pagespeed
 jobs:
     build:
       runs-on: ubuntu-latest
