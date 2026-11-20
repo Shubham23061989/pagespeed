@@ -1,9 +1,9 @@
 name: CI pipeline practice
 
 on:
-  push:
+  pull_request:
     branches:
-      - practice/ci-cd
+      - main
 jobs:
     build:
       runs-on: ubuntu-latest
